@@ -100,7 +100,7 @@ describe('LinkedList', () => {
                     head: { value: 'A', next: null },
                     tail: { value: 'A', next: null },
                     length: 1
-                });
+                }); 
                 expect(linkedList.addToTail('B')).to.eql({
                     head: { value: 'A', next: { value: 'B', next: null } },
                     tail: { value: 'B', next: null },
